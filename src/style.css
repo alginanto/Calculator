@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(232, 234, 235, 0.3617822128851541) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+input {
+    border: none;
+    /* Removes the default border */
+}
+
+input:focus {
+    outline: none
+        /* Removes the border when the input is clicked */
+}
+
+.container {
+    margin: auto;
+    width: 20%;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px
+}
+
+.top input {
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    text-align: end;
+    padding-right: 10px;
+}
+
+.history {
+    font-size: 15px;
+}
+
+.result {
+    font-size: 25px;
+}
+
+.bottom {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.bottom input[type=button] {
+    flex: 1 0 21%;
+    height: 70px;
+    width: 70px;
+    background-color: rgba(36, 34, 34, 0.938);
+    color: white;
+    border-radius: 10px;
+}
+
+.bottom input[type=button]:hover {
+    background-color: #353935;
+}
+
+.buttom .equalto {
+    background-color: rgb(12, 105, 74);
+}
+
+.clear {
+    background-color: rgb(167, 27, 27);
+}
